@@ -1,0 +1,146 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+}
+
+/*Header and Logo*/
+header {
+
+  display: flex;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  z-index: 1;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 10px;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+  padding-right: 10px;
+}
+
+/* First Section-Mission*/
+#mission {
+  display: flex;
+  background: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 1200px;
+}
+
+.content h2,
+content h4 {
+  margin: 10px;
+}
+
+/*Tea of the Month Section */
+.month {
+  text-align: center;
+}
+
+#store {
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+.items p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Store Locations and addresses */
+#locations {
+  display: flex;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.Places {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.address {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+  padding: 5px;
+  text-align: center;
+  margin-right: 40px;
+}
+
+/*Store Contact Information*/
+.contact  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-height: 200px;
+  padding-top: 10px;
+}
+
+footer {
+  margin-left: 20px;
+  text-align: left;
+}
